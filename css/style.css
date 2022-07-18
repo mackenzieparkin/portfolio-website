@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to Use CSS in Your Page</title>
+		<!-- add normalize below -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<!-- add your style.css file below that's in the css directory -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- styling in the head example -->
+		<style>
+			code {
+				color: red;
+				background-color: lightgreen;
+			}
+		</style>
+  </head>
+	<!-- inline style example (recommended not to use inline styling) -->
+  <body style="background-color: lightblue;">
+		<h1>Hello from the <code>style</code> tag</h1>
+		<p>My color is coming from the <code>style.css</code> file</p>
+  </body>
+</html>
