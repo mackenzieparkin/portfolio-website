@@ -1,81 +1,208 @@
-      body {
-      font-family: 'Quicksand', sans-serif;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    body {
-        background-color: #ffffff;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 1.6;
-        color: #4a4a4a;
-      }
+body {
+  font-family: 'Quicksand', sans-serif;
+}
 
-      h1, h2, h3, h4 {
-        line-height: 1.4;
-      }
-      h1 {
-        font-size: 2.75em;
-        font-weight: 700;
-      }
+body {
+  background-color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
 
-      h2 {
-        font-size: 2.25em;
-        font-weight: 700;
-      }
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
 
-      h3 {
-        font-size: 1.75em;
-        font-weight: 400;
-      }
-      h4 {
-        font-size: 1.35em;
-        font-weight: 400;
-      }
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
 
-      img {
-      width: 100%;
-    }
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
 
-    a {
-      color: #74A4A1;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #CF846E;
-      text-decoration: underline;
-    }
-    a:hover,
-    a:focus {
-      color: #CF846E;
-      text-decoration: underline;
-    }
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 
-    .button {
-      display: inline-block;
-      background-color: #CF846E;
-      color: #ffffff;
-      font-weight: 400;
-      padding: 10px;
-      border-radius: 3px;
-      border-bottom: 2px solid #994c30;
-      transition: 0.2s opacity;
-    }
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
 
-    .button:hover {
-      opacity: 0.8;
-      color: #ffffff;
-      text-decoration: none;
-    }
+img {
+  width: 100%;
+}
 
-    .button.contact {
-      background-color: transparent;
-      color: #CF846E;
-      text-transform: uppercase;
-      border: 2px solid #CF846E;
-    }
+a {
+  color: #000000;
+  text-decoration: none;
+}
 
-    .button.contact:hover {
-      background-color: #CF846E;
-      color: #ffffff;
-    }
+a:hover {
+  color: #CF846E;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #CF846E;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: #CF846E;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #CF846E;
+  text-transform: uppercase;
+  border: 2px solid #CF846E;
+  align: center
+}
+
+.button.contact:hover {
+  background-color: #CF846E;
+  color: #ffffff;
+}
+
+/* Layout styling */
+header {
+  background-color: #74A4A1;
+  padding: 10px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+.center {
+  text-align: center;
+}
+
+#resume {
+  margin: auto;
+  text-align: center;
+}
+
+#hero h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+#work h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#contact h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#contact p {
+  text-align: center;
+  /* Centers text */
+}
+
+#email {
+  text-align: center;
+  /* Centers text */
+}
+
+
+.logo {
+  max-width: 250px;
+}
+
+#about h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+#mystory h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#skills h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#voyageher h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+#voyageher h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+header {
+  background-color: #74A4A1;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  position: relative;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+#hero {
+  background-color: #74A4A1;
+}
+
+#hero {
+  background-color: #74A4A1;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#socials {
+  max-width: 32px;
+}
