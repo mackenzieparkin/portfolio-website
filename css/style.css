@@ -203,6 +203,7 @@ nav>ul>li>a {
   width: 100%;
 }
 
-#socials {
-  max-width: 32px;
+.row {
+  text-align: center;
+  /* Centers text */
 }
