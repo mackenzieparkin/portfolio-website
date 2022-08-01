@@ -178,6 +178,10 @@ header {
   /* Centers text */
 }
 
+#socials {
+  text-align: center;
+}
+
 header {
   background-color: #74A4A1;
   text-align: center;
@@ -218,16 +222,20 @@ nav>ul>li>a {
   display: block;
 }
 
-.row {
-  text-align: center;
-  /* Centers text */
-}
-
 .berlin-illustration{
   width: 100%;
 max-width: 100%;
 height: auto;
 }
+
+.profile{
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
