@@ -274,6 +274,12 @@ Large devices (1024px or larger)
   margin-left: auto;
   margin-right: auto;
 }
+.col-lg-7 {
+  width: 60%;
+}
+.col-lg-5 {
+  width: 40%;
+}
 }
 
 
