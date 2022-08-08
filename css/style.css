@@ -108,6 +108,10 @@ header {
   text-align: center;
 }
 
+.logo {
+  max-width: 150px
+}
+
 #resume {
   margin: auto;
   text-align: center;
@@ -146,11 +150,6 @@ header {
 #email {
   text-align: center;
   /* Centers text */
-}
-
-
-.logo {
-  max-width: 250px;
 }
 
 #about h1 {
@@ -236,6 +235,9 @@ height: auto;
   width: 50%
 }
 
+.logo img {
+  max-width: 150px
+}
 
 /* ==============================
 Medium devices (640px and larger)
